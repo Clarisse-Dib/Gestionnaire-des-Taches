@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+#taches{
+display: flex;
+justify-content: space-around;
+}
+button{
+    border-radius: 5px;
+    margin: 2px;
+    padding: 6px;
+    background-color: rgb(255, 228, 167);
+}
