@@ -33,10 +33,12 @@ function Stuart(form, ol, taskInput) {
         buttonM.addEventListener("click", function () {
             // créer mon "form"
             let formI=document.createElement("form");
-            let indI=document.createElement("input")
+            // document.getElementsByClassName("editForm").style.display= "none"
+            formI.setAttribute("class", "editForm");
+            let indI=document.createElement("input");
             let butI=document.createElement("button");
-            butI.textContent=("Sauvgarder")
-            this.remove(buttonM)
+            butI.textContent=("Sauvegarder");
+            this.remove(buttonM);
             // l'embriquer
         li.appendChild(formI);
         formI.appendChild(indI);
